@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Lab1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите x: "); int x0 = scan.nextInt();
-        System.out.println("Введите y: "); int y0 = scan.nextInt();
-        System.out.println("Введите z: "); int z0 = scan.nextInt();
-        System.out.println("Введите x: "); int x1 = scan.nextInt();
-        System.out.println("Введите y: "); int y1 = scan.nextInt();
-        System.out.println("Введите z: "); int z1 = scan.nextInt();
-        System.out.println("Введите x: "); int x2 = scan.nextInt();
-        System.out.println("Введите y: "); int y2 = scan.nextInt();
-        System.out.println("Введите z: "); int z2 = scan.nextInt();
+        System.out.println("Введите x: "); double x0 = scan.nextDouble();
+        System.out.println("Введите y: "); double y0 = scan.nextDouble();
+        System.out.println("Введите z: "); double z0 = scan.nextDouble();
+        System.out.println("Введите x: "); double x1 = scan.nextDouble();
+        System.out.println("Введите y: "); double y1 = scan.nextDouble();
+        System.out.println("Введите z: "); double z1 = scan.nextDouble();
+        System.out.println("Введите x: "); double x2 = scan.nextDouble();
+        System.out.println("Введите y: "); double y2 = scan.nextDouble();
+        System.out.println("Введите z: "); double z2 = scan.nextDouble();
         Point3D fPoint = new Point3D(x0, y0, z0);
         Point3D sPoint = new Point3D(x1, y1, z1);
         Point3D tPoint = new Point3D(x2, y2, z2);
