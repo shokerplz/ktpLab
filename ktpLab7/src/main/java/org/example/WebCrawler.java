@@ -82,6 +82,10 @@ public class WebCrawler  {
         return(visitedLinks);
     }
     public static void main(String[] args) throws MalformedURLException {
+        if (args.length != 2) {
+            System.out.println("usage: java Crawler <URL> <maximum_depth>");
+            return;
+        }
         String urlStart = args[0];
         int depth = Integer.parseInt(args[1]);
         process(urlStart, depth);
